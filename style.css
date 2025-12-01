@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #a1c3ff;
+}
+
+
+.container{
+    width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+}
+
+#nav .containerlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+}
+
+#nav ul{
+    display: flex;
+    list-style: none;
+}
+
+#nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#nav a{
+    color: #fff;
+    text-decoration: none ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav a:hover{
+    color: lightblue;
+}
+
+
+#hero{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(25, 25, 172);
+}
+
+#hero .container{
+    display: flex;
+    color: #fff;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+} 
+
+#hero .container h1{
+    margin-bottom: 10px;
+}
+
+#boxes .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .box{
+    justify-content: space-between;
+    margin: 20px 10px;
+    background-color: blue;
+    height: 130px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 20px;
+    color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box h2{
+    padding-bottom: 10px;
+}
+
+.box p{
+    padding-bottom: 5px;
+}
+
+.box i{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header .container{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .header .container div{
+        text-align: center;
+    }
+    
+    .boxes .container{
+        display: block;
+    }
+}
+
+
+
+
+
+    
+    
+
+ 
+
